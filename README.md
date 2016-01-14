@@ -1,100 +1,26 @@
-# [Font Awesome v4.5.0](http://fontawesome.io)
-### The iconic font and CSS framework
+# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
-Font Awesome is a full suite of 605 pictographic icons for easy scalable vector graphics on websites,
-created and maintained by [Dave Gandy](http://twitter.com/davegandy).
-Stay up to date with the latest release and announcements on Twitter:
-[@fontawesome](http://twitter.com/fontawesome).
+[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
-Get started at http://fontawesome.io!
+## Getting Started
 
-## License
-- The Font Awesome font is licensed under the SIL OFL 1.1:
-  - http://scripts.sil.org/OFL
-- Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
-  - http://opensource.org/licenses/mit-license.html
-- The Font Awesome documentation is licensed under the CC BY 3.0 License:
-  - http://creativecommons.org/licenses/by/3.0/
-- Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
-  - `Font Awesome by Dave Gandy - http://fontawesome.io`
-- Full details: http://fontawesome.io/license
+To use this theme, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-## Changelog
-- [v4.5.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.5.0+is%3Aclosed)
-- [v4.4.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.4.0+is%3Aclosed)
-- [v4.3.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.3.0+is%3Aclosed)
-- [v4.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=12&page=1&state=closed)
-- [v4.1.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=6&page=1&state=closed)
-- [v4.0.3 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=9&page=1&state=closed)
-- [v4.0.2 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=8&page=1&state=closed)
-- [v4.0.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=7&page=1&state=closed)
-- [v4.0.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=2&page=1&state=closed)
-- [v3.2.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=5&page=1&state=closed)
-- [v3.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=3&page=1&state=closed)
-- [v3.1.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&page=1&state=closed)
-- v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed Sass support
-- v3.0.2 - much improved rendering and alignment in IE7
-- v3.0.1 - much improved rendering in webkit, various bug fixes
-- v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap's 14px default
+## Bugs and Issues
 
-## Contributing
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
 
-Please read through our [contributing guidelines](https://github.com/FortAwesome/Font-Awesome/blob/master/CONTRIBUTING.md).
-Included are directions for opening issues, coding standards, and notes on development.
+## Creator
 
-## Versioning
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
-with the following format:
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-`<major>.<minor>.<patch>`
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-And constructed with the following guidelines:
+## Copyright and License
 
-* Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes and misc changes bumps the patch
-
-For more information on SemVer, please visit http://semver.org.
-
-## Author
-- Email: dave@fontawesome.io
-- Twitter: http://twitter.com/davegandy
-- GitHub: https://github.com/davegandy
-
-## Component
-To include as a [component](http://github.com/component/component), just run
-
-    $ component install FortAwesome/Font-Awesome
-
-Or add
-
-    "FortAwesome/Font-Awesome": "*"
-
-to the `dependencies` in your `component.json`.
-
-## Hacking on Font Awesome
-
-**Before you can build the project**, you must first have the following installed:
-
-- [Ruby](https://www.ruby-lang.org/en/)
-- Ruby Development Headers
-  - **Ubuntu:** `sudo apt-get install ruby-dev` *(Only if you're __NOT__ using `rbenv` or `rvm`)*
-  - **Windows:** [DevKit](http://rubyinstaller.org/)
-- [Bundler](http://bundler.io/) (Run `gem install bundler` to install).
-- [Node Package Manager (AKA NPM)](https://docs.npmjs.com/getting-started/installing-node)
-- [Less](http://lesscss.org/) (Run `npm install -g less` to install).
-- [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css) (Run `npm install -g less-plugin-clean-css` to install).
-
-From the root of the repository, install the tools used to develop.
-
-    $ bundle install
-    $ npm install
-
-Build the project and documentation:
-
-    $ bundle exec jekyll build
-
-Or serve it on a local server on http://localhost:7998/Font-Awesome/:
-
-    $ bundle exec jekyll -w serve
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
